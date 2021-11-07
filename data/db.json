@@ -1,7 +1,7 @@
 {
   "furniture": [
     {
-      "id": "001",
+      "id": "101",
       "title": "HEMNES",
       "type": "Spinta",
       "price": 249,
@@ -18,7 +18,7 @@
       }
     },
     {
-      "id": "002",
+      "id": "102",
       "title": "FRIHETEN",
       "type": "Sofa",
       "price": 349,
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "003",
+      "id": "103",
       "title": "MÖRBYLÅNGA",
       "type": "stalas",
       "price": 399,
