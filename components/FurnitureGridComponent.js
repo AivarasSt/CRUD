@@ -43,15 +43,17 @@ class FurnitureGridComponent {
     this.fetchFurniture();
     console.log(this.state.furniture);
     this.htmlElement = document.createElement('div');
+
+    this.render();
   }
 
   render = () => {
     const { loading } = this.state;
     if (loading) {
-      this.htmlElement.innerHTML = '<div class="text-center"><img src="assets/loading.gif"></div>';
+      this.htmlElement.innerHTML = `<div class="text-center"><img src="assets/loading.gif"></div>`;
     } else {
-      this.htmlElement.className = "card-grid row";
       this.htmlElement.innerHTML = "";
+      this.htmlElement.className = "card-grid row";
       this.state.furniture.forEach((furniture) => {
         const tempCard = new FurnitureCardComponent({
           data: furniture,

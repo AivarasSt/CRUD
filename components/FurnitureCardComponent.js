@@ -25,7 +25,7 @@ class FurnitureCardComponent {
               <p class="m-0">Šalis: ${location.country}</p>
             </div>
             <div>
-              <h5 class="text-left">Pardavėjas</h5>
+              <h5 class="text-left mt-2">Pardavėjas</h5>
                 <p class="m-0">${owner.fullname}</p>
                 <p class="m-0">Tel. numeris: ${owner.mobile}</p>
                 <p class="m-0">Adresas: ${owner.address}</p>

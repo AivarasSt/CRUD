@@ -1,10 +1,12 @@
 const urlBase = 'http://localhost:3000';
 
 const getFurniture = (success, failure) => {
-  fetch(urlBase + '/furniture')
-    .then(response => response.json())
-    .then(success)
-    .catch(failure);
+  setTimeout(() => {
+    fetch(urlBase + '/furniture')
+      .then(response => response.json())
+      .then(success)
+      .catch(failure);
+  }, 1000)
 }
 
 const deleteFurniture = (success, failure, id) => {
