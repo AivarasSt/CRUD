@@ -1,0 +1,55 @@
+{
+  "furniture": [
+    {
+      "id": "001",
+      "title": "HEMNES",
+      "type": "Spinta",
+      "price": 249,
+      "location": {
+        "country": "Lietuva",
+        "city": "Vilnius",
+        "street": "Savanorių pr."
+      },
+      "owner": {
+        "fullname": "Olegarchas Mikrofonovičius",
+        "mobile": "+37061111111",
+        "address": "Savanorių pr. 115, Vilnius",
+        "email": "oleg@microphone.com"
+      }
+    },
+    {
+      "id": "002",
+      "title": "FRIHETEN",
+      "type": "Sofa",
+      "price": 349,
+      "location": {
+        "country": "Lietuva",
+        "city": "Vilnius",
+        "street": "Laisvės pr."
+      },
+      "owner": {
+        "fullname": "Perekūpas Astronauskas",
+        "mobile": "+37062222222",
+        "address": "Laisvės pr. 242, Vilnius",
+        "email": "perku@parduodu.lt"
+      }
+    },
+    {
+      "id": "003",
+      "title": "MÖRBYLÅNGA",
+      "type": "stalas",
+      "price": 399,
+      "location": {
+        "country": "Lietuva",
+        "city": "Kaunas",
+        "street": "Europos pr."
+      },
+      "owner": {
+        "fullname": "Rozetija Klaidaitė",
+        "mobile": "+37068888888",
+        "address": "Europos pr. 15, Kaunas",
+        "email": "rozetija@gmail.com"
+      }
+    }
+  ]
+}
