@@ -13,7 +13,7 @@ class FurnitureCardComponent {
     card.innerHTML = `
         <div class="card-body">
         <div class="d-flex align-items-center justify-content-end">
-              <button class="btn btn-sm btn-secondary btn-card">✕</button>
+              <button class="btn btn-sm btn-secondary">✕</button>
             </div>
           <h4 class="card-title text-center">${title}</h4>
           <h5 class="text-center">${type}</h5> 
@@ -37,7 +37,7 @@ class FurnitureCardComponent {
           </div>
     `;
 
-    const btnDelete = card.querySelector(".btn-card");
+    const btnDelete = card.querySelector(".btn");
     btnDelete.addEventListener("click", () => this.props.onDelete(id));
 
     return card;
