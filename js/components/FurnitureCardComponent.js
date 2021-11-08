@@ -7,7 +7,6 @@ class FurnitureCardComponent {
  
 
   createCard = () => {
-    console.log(this.props);
     const { id, title, type, price, location, owner } = this.props.data;
     const card = document.createElement("div");
     card.innerHTML = `

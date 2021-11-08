@@ -21,3 +21,17 @@ const API = {
   getFurniture,
   deleteFurniture
 };
+
+// API.getFurniture(
+//   (duomenys) => console.log(duomenys),
+//   (klaida) => console.error(klaida))
+
+// API.deleteFurniture(
+//   (duomenys) => console.log(duomenys),
+//   (klaida) => console.error(klaida),
+//   "103")
+
+// API.getFurniture(
+//   (duomenys) => console.log(duomenys),
+//   (klaida) => console.error(klaida))
+  
