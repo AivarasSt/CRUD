@@ -8,7 +8,7 @@ class FurnitureCardComponent {
 
   createCard = () => {
     const { id, title, type, price, location, owner } = this.props.data;
-    const card = document.createElement("div");
+    const card = document.createElement("article");
     card.innerHTML = `
         <div class="card-body">
         <div class="d-flex align-items-center justify-content-end">

@@ -53,11 +53,11 @@ class FurnitureGridComponent {
       this.htmlElement.innerHTML = "";
       this.htmlElement.className = "card-grid row";
       this.state.furniture.forEach((furniture) => {
-        const tempCard = new FurnitureCardComponent({
+        const cardComponent = new FurnitureCardComponent({
           data: furniture,
           onDelete: this.deleteFurniture,
         });
-        this.htmlElement.append(tempCard.htmlElement);
+        this.htmlElement.append(cardComponent.htmlElement);
       });
     }
   }
