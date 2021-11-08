@@ -51,7 +51,7 @@ class FurnitureGridComponent {
       this.htmlElement.innerHTML = `<div class="text-center"><img src="assets/loading.gif"></div>`;
     } else {
       this.htmlElement.innerHTML = "";
-      this.htmlElement.className = "card-grid row";
+      this.htmlElement.className = "card-grid row g-3";
       this.state.furniture.forEach((furniture) => {
         const cardComponent = new FurnitureCardComponent({
           data: furniture,

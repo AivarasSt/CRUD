@@ -9,6 +9,7 @@ class FurnitureCardComponent {
   createCard = () => {
     const { id, title, type, price, location, owner } = this.props.data;
     const card = document.createElement("article");
+    card.className = "card"
     card.innerHTML = `
         <div class="card-body">
         <div class="d-flex align-items-center justify-content-end">
@@ -45,7 +46,7 @@ class FurnitureCardComponent {
   initialize = () => {
     this.createCard();
     this.htmlElement = document.createElement("div");
-    this.htmlElement.className = "card col-lg-4";
+    this.htmlElement.className = "col-lg-4";
 
     this.render();
   };
