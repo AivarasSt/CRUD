@@ -14,7 +14,6 @@ class FurnitureGridComponent {
         this.state.furniture = furniture;
         this.state.loading = false;
         this.render();
-        console.log(this.state.furniture);
       },
       (err) => console.error(err)
     );
@@ -41,7 +40,6 @@ class FurnitureGridComponent {
 
   initialize = () => {
     this.fetchFurniture();
-    console.log(this.state.furniture);
     this.htmlElement = document.createElement('div');
 
     this.render();
